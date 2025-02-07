@@ -2,9 +2,7 @@ package streamsLearning;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
-
 import org.testng.annotations.Test;
-
 public class streamIntroduction {
 		@Test
 		public void regular()
