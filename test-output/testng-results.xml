@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-07T01:03:02 IST" name="Default suite" finished-at="2025-02-07T01:03:02 IST" duration-ms="127">
+  <suite started-at="2025-02-14T13:07:04 IST" name="Default suite" finished-at="2025-02-14T13:07:04 IST" duration-ms="137">
     <groups>
     </groups>
-    <test started-at="2025-02-07T01:03:02 IST" name="Default test" finished-at="2025-02-07T01:03:02 IST" duration-ms="127">
-      <class name="streamsLearning.streamIntroduction">
-        <test-method signature="regular()[pri:0, instance:streamsLearning.streamIntroduction@557caf28]" started-at="2025-02-07T01:03:02 IST" name="regular" finished-at="2025-02-07T01:03:02 IST" duration-ms="23" status="PASS">
+    <test started-at="2025-02-14T13:07:04 IST" name="Default test" finished-at="2025-02-14T13:07:04 IST" duration-ms="137">
+      <class name="SeleniumLearning.testNGIntroduction">
+        <test-method signature="Demo()[pri:0, instance:SeleniumLearning.testNGIntroduction@36ebc363]" started-at="2025-02-14T13:07:04 IST" name="Demo" finished-at="2025-02-14T13:07:04 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regular -->
-        <test-method signature="streamFilter()[pri:0, instance:streamsLearning.streamIntroduction@557caf28]" started-at="2025-02-07T01:03:02 IST" name="streamFilter" finished-at="2025-02-07T01:03:02 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- Demo -->
+        <test-method signature="DemoTwo()[pri:0, instance:SeleniumLearning.testNGIntroduction@36ebc363]" started-at="2025-02-14T13:07:04 IST" name="DemoTwo" finished-at="2025-02-14T13:07:04 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- streamFilter -->
-      </class> <!-- streamsLearning.streamIntroduction -->
+        </test-method> <!-- DemoTwo -->
+      </class> <!-- SeleniumLearning.testNGIntroduction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
