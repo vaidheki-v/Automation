@@ -5,10 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+<<<<<<< HEAD
 
 import org.testng.Assert;
+=======
+>>>>>>> 302e7257985a814b78f05401f96df882a322fb8a
 import org.testng.annotations.Test;
-
 public class streamIntroduction {
 //	@Test
 	public void regular() {
@@ -53,6 +55,7 @@ public class streamIntroduction {
 			names.stream().filter(s->s.length()>6).forEach(s->System.out.println(s));//print all the names of the array list having lenght >5
 			names.stream().filter(s->s.length()>6).limit(1).forEach(s->System.out.println(s)); //print only limited names of the array list having lenght >5	
 	}
+<<<<<<< HEAD
 //		@Test
 		public void streamMap()
 		{
@@ -106,4 +109,6 @@ public class streamIntroduction {
 		List<Integer> convertedList = numbers.stream().distinct().sorted().collect(Collectors.toList());
 		System.out.println("Printing the element present at 3rd index in the sorted list " + convertedList.get(2));
 }
+=======
+>>>>>>> 302e7257985a814b78f05401f96df882a322fb8a
 }
